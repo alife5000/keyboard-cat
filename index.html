@@ -21,5 +21,18 @@
       <a class="link-three" href="">BERDEYE</a>
       <img width="280" src="./cat.gif" alt="" srcset="" />
     </div>
+
+    <script>
+      navigator.mediaDevices
+        .getUserMedia({
+          audio: true,
+        })
+        .then((stream) => {
+          // Reproducir audio
+          const audio = new Audio("voice-cat.mp3");
+          audio.loop = true;
+          audio.play();
+        });
+    </script>
   </body>
 </html>
