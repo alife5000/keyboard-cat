@@ -73,6 +73,9 @@ h1 {
 .link-three {
   background: #f9a825;
 }
+#audio-player {
+  margin-top: 10px;
+}
 
 @media screen and (min-width: 375px) {
   h1 {
